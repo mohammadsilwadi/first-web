@@ -1,5 +1,9 @@
 var userName = prompt("Whats your name ?");
 alert("welcome to our websit " + userName );
+document.write(" welcome to our website "+ userName   );
+var yourAge = prompt("how old are u ?");
+document.write(  " Happy "      + yourAge   )
+document.write(  " Years  inshallah"         );
 var favTennisPlayer = prompt("what's your fav tennis player");
 if(favTennisPlayer === "novak" ){
   
