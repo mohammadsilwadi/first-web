@@ -1,5 +1,5 @@
 var userName = prompt("Whats your name ?");
-alert("welcome to our websit " + userName );
+alert("welcome to our website " + userName );
 document.write(" welcome to our website "+ userName   );
 var yourAge = prompt("how old are u ?");
 document.write(  " Happy "      + yourAge   )
@@ -22,6 +22,7 @@ document.write("<a href='https://www.instagram.com/rogerfederer/?hl=en'> roger f
 }else{
   
   alert('please next time answer either novak or Rafael or Roger');
-
+x=4+'2'
+console.log(x)
 }
 
