@@ -39,7 +39,7 @@ for(var i = 1; i <= starRating; i++)  {
 
 }
 var answerQus=prompt('please answer this question "1+1=?" ')
-while(answerQus == 2) {
+while(answerQus != 2) {
  console.log('inside the while loop');
     
   answerQus = prompt('please enter your answer to this question "1+1=?" again with incorrect answer!!!!');
