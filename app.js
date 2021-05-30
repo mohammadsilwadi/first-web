@@ -22,7 +22,22 @@ document.write("<a href='https://www.instagram.com/rogerfederer/?hl=en'> roger f
 }else{
   
   alert('please next time answer either novak or Rafael or Roger');
-x=4+'2'
-console.log(x)
+
 }
 
+
+var starRating = prompt('can u rate us between 0 to 5')
+var i
+for(var i = 1; i <= starRating; i++)  { 
+  if(starRating ==0 ) {
+   break;
+  }
+  else document.write('<img src="https://image.shutterstock.com/image-vector/golden-christmas-star-isolated-on-260nw-1723051297.jpg" />')
+
+}
+var answerQus=prompt('please answer this question "1+1=?" ')
+while(answerQus == 2) {
+ console.log('inside the while loop');
+    
+  answerQus = prompt('please enter your answer to this question "1+1=?" again with incorrect answer!!!!');
+ }
