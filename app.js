@@ -26,10 +26,13 @@ document.write("<a href='https://www.instagram.com/rogerfederer/?hl=en'> roger f
 }
 
 
-var starRating = prompt('can u rate us between 0 to 5')
+var starRating = prompt('can u rate us between 0 to 10')
 var i
 for(var i = 1; i <= starRating; i++)  { 
   if(starRating ==0 ) {
+   break;
+  }
+  else if(starRating >10 ) {
    break;
   }
   else document.write('<img src="https://image.shutterstock.com/image-vector/golden-christmas-star-isolated-on-260nw-1723051297.jpg" />')
