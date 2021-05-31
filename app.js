@@ -26,9 +26,10 @@ document.write("<a href='https://www.instagram.com/rogerfederer/?hl=en'> roger f
 }
 
 
-var starRating = prompt('can u rate us between 0 to 10')
-var i
-for(var i = 1; i <= starRating; i++)  { 
+let starRating = prompt('can u rate us between 0 to 10')
+let i
+function howMany(num1){
+for(let i = 1; i <= starRating; i++)  { 
   if(starRating ==0 ) {
    break;
   }
@@ -37,10 +38,14 @@ for(var i = 1; i <= starRating; i++)  {
   }
   else document.write('<img src="https://image.shutterstock.com/image-vector/golden-christmas-star-isolated-on-260nw-1723051297.jpg" />')
 
-}
-var answerQus=prompt('please answer this question "1+1=?" ')
+}}
+howMany(starRating)
+let  answerQus=prompt('please answer this question "1+1=?" ')
+function answer(num2){
 while(answerQus != 2) {
  console.log('inside the while loop');
     
-  answerQus = prompt('please enter your answer to this question "1+1=?" again with incorrect answer!!!!');
- }
+  answerQus = prompt('please enter your answer to this question "1+1=?" again with correct answer!!!!');
+ }}
+ answer(answerQus)
+ 
